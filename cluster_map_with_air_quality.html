@@ -1,0 +1,3670 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8b66f4acb564d36f6dc30af124bf4af5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8b66f4acb564d36f6dc30af124bf4af5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8b66f4acb564d36f6dc30af124bf4af5 = L.map(
+                "map_8b66f4acb564d36f6dc30af124bf4af5",
+                {
+                    center: [-15.7801, -47.9292],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_036143ce5af596e6ecdb3ef0918a20c8 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_036143ce5af596e6ecdb3ef0918a20c8.addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var circle_marker_e5ef73ea5f628e3c8d1621fb32269ad1 = L.circleMarker(
+                [-13.00583333, -38.50583333],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+        var popup_575123c3c9cbbe8549d12d6f8276b3b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c36f5bfd2edb2c64e1a6b9769b7cfc5 = $(`<div id="html_2c36f5bfd2edb2c64e1a6b9769b7cfc5" style="width: 100.0%; height: 100.0%;">Temperature data (SALVADOR (ONDINA))</div>`)[0];
+                popup_575123c3c9cbbe8549d12d6f8276b3b1.setContent(html_2c36f5bfd2edb2c64e1a6b9769b7cfc5);
+            
+        
+
+        circle_marker_e5ef73ea5f628e3c8d1621fb32269ad1.bindPopup(popup_575123c3c9cbbe8549d12d6f8276b3b1)
+        ;
+
+        
+    
+    
+            var marker_2116d9290c690d8d3e7bdf3f6b348255 = L.marker(
+                [-12.70603, -38.321377],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_e7291dc231aa20208748f4969e73178c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_500547c89a3a4a216cd6135179e712f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_272635cda91b47728dc62b4ef09d8508 = $(`<div id="html_272635cda91b47728dc62b4ef09d8508" style="width: 100.0%; height: 100.0%;">Ozone station - Câmara</div>`)[0];
+                popup_500547c89a3a4a216cd6135179e712f8.setContent(html_272635cda91b47728dc62b4ef09d8508);
+            
+        
+
+        marker_2116d9290c690d8d3e7bdf3f6b348255.bindPopup(popup_500547c89a3a4a216cd6135179e712f8)
+        ;
+
+        
+    
+    
+                marker_2116d9290c690d8d3e7bdf3f6b348255.setIcon(icon_e7291dc231aa20208748f4969e73178c);
+            
+    
+            var marker_e6def74c7cad6da71f284c283a65a6aa = L.marker(
+                [-12.635318, -38.273178],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_2019128fb7301f2921dfe36b91f2649f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5d46f47e6f77b9e843fe296b64e53225 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98854a2486008d74d9ece11dc9921e13 = $(`<div id="html_98854a2486008d74d9ece11dc9921e13" style="width: 100.0%; height: 100.0%;">Ozone station - Escola</div>`)[0];
+                popup_5d46f47e6f77b9e843fe296b64e53225.setContent(html_98854a2486008d74d9ece11dc9921e13);
+            
+        
+
+        marker_e6def74c7cad6da71f284c283a65a6aa.bindPopup(popup_5d46f47e6f77b9e843fe296b64e53225)
+        ;
+
+        
+    
+    
+                marker_e6def74c7cad6da71f284c283a65a6aa.setIcon(icon_2019128fb7301f2921dfe36b91f2649f);
+            
+    
+            var marker_0b6d1742ef648b6a82610590ae532493 = L.marker(
+                [-12.756957, -38.28408],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_560b334bc1fe81709089a24df3feba2e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d25fb09d149e1e57eafa1d24b8ac28ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3370f2ab86d7945264ed17725fc752d = $(`<div id="html_b3370f2ab86d7945264ed17725fc752d" style="width: 100.0%; height: 100.0%;">Ozone station - Machadinho</div>`)[0];
+                popup_d25fb09d149e1e57eafa1d24b8ac28ac.setContent(html_b3370f2ab86d7945264ed17725fc752d);
+            
+        
+
+        marker_0b6d1742ef648b6a82610590ae532493.bindPopup(popup_d25fb09d149e1e57eafa1d24b8ac28ac)
+        ;
+
+        
+    
+    
+                marker_0b6d1742ef648b6a82610590ae532493.setIcon(icon_560b334bc1fe81709089a24df3feba2e);
+            
+    
+            var marker_9a606a4ebe2d76bfcf4c1cff9b88a586 = L.marker(
+                [-12.595481, -38.398561],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_1d29606b221bd7ee79c0e4be06750e03 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a2822aace66a9b2382ea0811edaea2df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3efe1f837b648787cfa1ffd86716f98c = $(`<div id="html_3efe1f837b648787cfa1ffd86716f98c" style="width: 100.0%; height: 100.0%;">Ozone station - Lamarão</div>`)[0];
+                popup_a2822aace66a9b2382ea0811edaea2df.setContent(html_3efe1f837b648787cfa1ffd86716f98c);
+            
+        
+
+        marker_9a606a4ebe2d76bfcf4c1cff9b88a586.bindPopup(popup_a2822aace66a9b2382ea0811edaea2df)
+        ;
+
+        
+    
+    
+                marker_9a606a4ebe2d76bfcf4c1cff9b88a586.setIcon(icon_1d29606b221bd7ee79c0e4be06750e03);
+            
+    
+            var marker_37962bb4ea2fdc729b0babc19a918102 = L.marker(
+                [-12.614964, -38.52203],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_72a205ba4b28e710e8de34e57ea21e9c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_94fd0540216b353eba436736067d67f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee3ce0afac8199d268b33e8cbaa9d397 = $(`<div id="html_ee3ce0afac8199d268b33e8cbaa9d397" style="width: 100.0%; height: 100.0%;">Ozone station - Botelho</div>`)[0];
+                popup_94fd0540216b353eba436736067d67f4.setContent(html_ee3ce0afac8199d268b33e8cbaa9d397);
+            
+        
+
+        marker_37962bb4ea2fdc729b0babc19a918102.bindPopup(popup_94fd0540216b353eba436736067d67f4)
+        ;
+
+        
+    
+    
+                marker_37962bb4ea2fdc729b0babc19a918102.setIcon(icon_72a205ba4b28e710e8de34e57ea21e9c);
+            
+    
+            var marker_7264bf67477ff2c9b790fd09ea014620 = L.marker(
+                [-12.677217, -38.539136],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_a913e323d4f6a982631aa82683553743 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3f244d13689cb53d940d89f7b2e1c2bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_23e5745b5cb5ba85fcd80a7e4e563ed0 = $(`<div id="html_23e5745b5cb5ba85fcd80a7e4e563ed0" style="width: 100.0%; height: 100.0%;">Ozone station - Malembá</div>`)[0];
+                popup_3f244d13689cb53d940d89f7b2e1c2bc.setContent(html_23e5745b5cb5ba85fcd80a7e4e563ed0);
+            
+        
+
+        marker_7264bf67477ff2c9b790fd09ea014620.bindPopup(popup_3f244d13689cb53d940d89f7b2e1c2bc)
+        ;
+
+        
+    
+    
+                marker_7264bf67477ff2c9b790fd09ea014620.setIcon(icon_a913e323d4f6a982631aa82683553743);
+            
+    
+            var marker_5141521c42fd77f20eba33bfcc448294 = L.marker(
+                [-13.00583333, -38.50583333],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_0884daaa4f73a5adf32168e46c4c3325 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_121bded5c28c35e7cf8696818a06456c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd631bb3f49d59930e7b3eea3921eb06 = $(`<div id="html_dd631bb3f49d59930e7b3eea3921eb06" style="width: 100.0%; height: 100.0%;">Average Location of Weather Stations for BA_1</div>`)[0];
+                popup_121bded5c28c35e7cf8696818a06456c.setContent(html_dd631bb3f49d59930e7b3eea3921eb06);
+            
+        
+
+        marker_5141521c42fd77f20eba33bfcc448294.bindPopup(popup_121bded5c28c35e7cf8696818a06456c)
+        ;
+
+        
+    
+    
+                marker_5141521c42fd77f20eba33bfcc448294.setIcon(icon_0884daaa4f73a5adf32168e46c4c3325);
+            
+    
+            var circle_marker_d1f31a5580810a057938602a19661e90 = L.circleMarker(
+                [-3.78, -38.54],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+        var popup_68ee9e6e19b2ece48e75cc77cbedc5ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3af7a91d91b5a881b1426292725deb5a = $(`<div id="html_3af7a91d91b5a881b1426292725deb5a" style="width: 100.0%; height: 100.0%;">Temperature data (FORTALEZA - AEROPORTO)</div>`)[0];
+                popup_68ee9e6e19b2ece48e75cc77cbedc5ec.setContent(html_3af7a91d91b5a881b1426292725deb5a);
+            
+        
+
+        circle_marker_d1f31a5580810a057938602a19661e90.bindPopup(popup_68ee9e6e19b2ece48e75cc77cbedc5ec)
+        ;
+
+        
+    
+    
+            var marker_84545b74a50962fc279705bef6249b95 = L.marker(
+                [-3.556, -38.8367],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_566de69bbb0787528b518b5ae3bccb8f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_811fea4191319446295f7ae5d2615b6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5cda9fb6985f2bd76d318b9ceb8dbc11 = $(`<div id="html_5cda9fb6985f2bd76d318b9ceb8dbc11" style="width: 100.0%; height: 100.0%;">Ozone station - CIPP</div>`)[0];
+                popup_811fea4191319446295f7ae5d2615b6a.setContent(html_5cda9fb6985f2bd76d318b9ceb8dbc11);
+            
+        
+
+        marker_84545b74a50962fc279705bef6249b95.bindPopup(popup_811fea4191319446295f7ae5d2615b6a)
+        ;
+
+        
+    
+    
+                marker_84545b74a50962fc279705bef6249b95.setIcon(icon_566de69bbb0787528b518b5ae3bccb8f);
+            
+    
+            var marker_354693312cf03e71e288df14d365d728 = L.marker(
+                [-3.78, -38.54],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_b8c5ff63d6ea0a0079255ea330ac4388 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f506c19f5e98383137141863e8550eda = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ffa9c0b06fe924d101220f003df950e3 = $(`<div id="html_ffa9c0b06fe924d101220f003df950e3" style="width: 100.0%; height: 100.0%;">Average Location of Weather Stations for CE_1</div>`)[0];
+                popup_f506c19f5e98383137141863e8550eda.setContent(html_ffa9c0b06fe924d101220f003df950e3);
+            
+        
+
+        marker_354693312cf03e71e288df14d365d728.bindPopup(popup_f506c19f5e98383137141863e8550eda)
+        ;
+
+        
+    
+    
+                marker_354693312cf03e71e288df14d365d728.setIcon(icon_b8c5ff63d6ea0a0079255ea330ac4388);
+            
+    
+            var circle_marker_c06f475c6f920c22b14799487f2872a7 = L.circleMarker(
+                [-8.05916666, -34.95916666],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+        var popup_f6d04a62db29834c4ef1590904430613 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_432b6cd66232ee8cd9ff68f96623bd55 = $(`<div id="html_432b6cd66232ee8cd9ff68f96623bd55" style="width: 100.0%; height: 100.0%;">Temperature data (Recife Curado)</div>`)[0];
+                popup_f6d04a62db29834c4ef1590904430613.setContent(html_432b6cd66232ee8cd9ff68f96623bd55);
+            
+        
+
+        circle_marker_c06f475c6f920c22b14799487f2872a7.bindPopup(popup_f6d04a62db29834c4ef1590904430613)
+        ;
+
+        
+    
+    
+            var marker_0ce7e3357c12462601489be87fbec1ea = L.marker(
+                [-8.337519444, -35.022172222],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_cd4638ae5d78bbe558fca68bcf0bbd38 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f068b6ad90f559c88b9d29d7d316812e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4cfcaf17dfa15cee7a0d410c57e2d935 = $(`<div id="html_4cfcaf17dfa15cee7a0d410c57e2d935" style="width: 100.0%; height: 100.0%;">Ozone station - CPRH</div>`)[0];
+                popup_f068b6ad90f559c88b9d29d7d316812e.setContent(html_4cfcaf17dfa15cee7a0d410c57e2d935);
+            
+        
+
+        marker_0ce7e3357c12462601489be87fbec1ea.bindPopup(popup_f068b6ad90f559c88b9d29d7d316812e)
+        ;
+
+        
+    
+    
+                marker_0ce7e3357c12462601489be87fbec1ea.setIcon(icon_cd4638ae5d78bbe558fca68bcf0bbd38);
+            
+    
+            var marker_6d385df26c69c9f6e409d72664943946 = L.marker(
+                [-8.384847, -35.041558],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_d2f5ed3036f681585d2515d0e510747d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0bfeb2adc79f9e3e0390438e1db7eed0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e46f7fd716c2f09298862cb244890f8a = $(`<div id="html_e46f7fd716c2f09298862cb244890f8a" style="width: 100.0%; height: 100.0%;">Ozone station - IFPE</div>`)[0];
+                popup_0bfeb2adc79f9e3e0390438e1db7eed0.setContent(html_e46f7fd716c2f09298862cb244890f8a);
+            
+        
+
+        marker_6d385df26c69c9f6e409d72664943946.bindPopup(popup_0bfeb2adc79f9e3e0390438e1db7eed0)
+        ;
+
+        
+    
+    
+                marker_6d385df26c69c9f6e409d72664943946.setIcon(icon_d2f5ed3036f681585d2515d0e510747d);
+            
+    
+            var marker_abab7b8f9fdeeb8c1c70c4c540d7f387 = L.marker(
+                [-8.438111, -35.012619],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_a61be00ee04d9961fbeb00f3c0295b00 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_52c2d0b3d3608f8df9f5e7ad7742bc95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4171c04e0b1ba2705859fb8385dd693b = $(`<div id="html_4171c04e0b1ba2705859fb8385dd693b" style="width: 100.0%; height: 100.0%;">Ozone station - Ipojuca</div>`)[0];
+                popup_52c2d0b3d3608f8df9f5e7ad7742bc95.setContent(html_4171c04e0b1ba2705859fb8385dd693b);
+            
+        
+
+        marker_abab7b8f9fdeeb8c1c70c4c540d7f387.bindPopup(popup_52c2d0b3d3608f8df9f5e7ad7742bc95)
+        ;
+
+        
+    
+    
+                marker_abab7b8f9fdeeb8c1c70c4c540d7f387.setIcon(icon_a61be00ee04d9961fbeb00f3c0295b00);
+            
+    
+            var marker_1013edb3c61c1c21aacfdc42dd2ea2cf = L.marker(
+                [-8.05916666, -34.95916666],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_a1990d7ba89ab894b3719cb9aff6000d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9bf521a8ed2964b87e5baa1e35510e0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a20adaa0be76b6cfefe363c120ab542 = $(`<div id="html_7a20adaa0be76b6cfefe363c120ab542" style="width: 100.0%; height: 100.0%;">Average Location of Weather Stations for PE_1</div>`)[0];
+                popup_9bf521a8ed2964b87e5baa1e35510e0f.setContent(html_7a20adaa0be76b6cfefe363c120ab542);
+            
+        
+
+        marker_1013edb3c61c1c21aacfdc42dd2ea2cf.bindPopup(popup_9bf521a8ed2964b87e5baa1e35510e0f)
+        ;
+
+        
+    
+    
+                marker_1013edb3c61c1c21aacfdc42dd2ea2cf.setIcon(icon_a1990d7ba89ab894b3719cb9aff6000d);
+            
+    
+            var circle_marker_6d19a1b2f9f2a8923787a07cac32c6a4 = L.circleMarker(
+                [-23.49638888, -46.61999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+        var popup_2e9810e04005a2ea3a29357a849e48da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6844d5e549d3d270d432256eebda7c6b = $(`<div id="html_6844d5e549d3d270d432256eebda7c6b" style="width: 100.0%; height: 100.0%;">Temperature data (SAO PAULO(MIR,de SANTANA))</div>`)[0];
+                popup_2e9810e04005a2ea3a29357a849e48da.setContent(html_6844d5e549d3d270d432256eebda7c6b);
+            
+        
+
+        circle_marker_6d19a1b2f9f2a8923787a07cac32c6a4.bindPopup(popup_2e9810e04005a2ea3a29357a849e48da)
+        ;
+
+        
+    
+    
+            var circle_marker_dc4800454d7b07bcee0cede41f67e85c = L.circleMarker(
+                [-23.62, -46.65],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+        var popup_ff968250dcc129bf9aa8ab4a634e743b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76f952ed885935b16ccf46d955277a96 = $(`<div id="html_76f952ed885935b16ccf46d955277a96" style="width: 100.0%; height: 100.0%;">Temperature data (SAO PAULO- AEROPORTO)</div>`)[0];
+                popup_ff968250dcc129bf9aa8ab4a634e743b.setContent(html_76f952ed885935b16ccf46d955277a96);
+            
+        
+
+        circle_marker_dc4800454d7b07bcee0cede41f67e85c.bindPopup(popup_ff968250dcc129bf9aa8ab4a634e743b)
+        ;
+
+        
+    
+    
+            var circle_marker_be42742e618a8a8ef3a479bab0416ed0 = L.circleMarker(
+                [-23.44, -46.47],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+        var popup_94868f2f06ac410ccd83495a6c4e38fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f53f05b6820f62ccb9789eab9b3f79f0 = $(`<div id="html_f53f05b6820f62ccb9789eab9b3f79f0" style="width: 100.0%; height: 100.0%;">Temperature data (GUARULHOS - AEROPORTO)</div>`)[0];
+                popup_94868f2f06ac410ccd83495a6c4e38fe.setContent(html_f53f05b6820f62ccb9789eab9b3f79f0);
+            
+        
+
+        circle_marker_be42742e618a8a8ef3a479bab0416ed0.bindPopup(popup_94868f2f06ac410ccd83495a6c4e38fe)
+        ;
+
+        
+    
+    
+            var marker_32885b4822d9821885ddab28b6798d77 = L.marker(
+                [-23.654977229, -46.70999839],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_924cab6283e8963b4905a48c9bb1dd07 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8c5dc2b6e23ffc7bebb922a66bfa1023 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d27ba53b4f8f5425d378abf5699a6cf = $(`<div id="html_3d27ba53b4f8f5425d378abf5699a6cf" style="width: 100.0%; height: 100.0%;">Ozone station - Santo Amaro</div>`)[0];
+                popup_8c5dc2b6e23ffc7bebb922a66bfa1023.setContent(html_3d27ba53b4f8f5425d378abf5699a6cf);
+            
+        
+
+        marker_32885b4822d9821885ddab28b6798d77.bindPopup(popup_8c5dc2b6e23ffc7bebb922a66bfa1023)
+        ;
+
+        
+    
+    
+                marker_32885b4822d9821885ddab28b6798d77.setIcon(icon_924cab6283e8963b4905a48c9bb1dd07);
+            
+    
+            var marker_ac9289e7060100741da4361fecaebd3d = L.marker(
+                [-23.480098705, -46.69205193],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_53b000dadb0c19d6aca1a695c4cc588d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d6ef30f9962aafe4bb06c5b71a363e69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_904e9e520b7c893852f0829eed4eae54 = $(`<div id="html_904e9e520b7c893852f0829eed4eae54" style="width: 100.0%; height: 100.0%;">Ozone station - NSÓ</div>`)[0];
+                popup_d6ef30f9962aafe4bb06c5b71a363e69.setContent(html_904e9e520b7c893852f0829eed4eae54);
+            
+        
+
+        marker_ac9289e7060100741da4361fecaebd3d.bindPopup(popup_d6ef30f9962aafe4bb06c5b71a363e69)
+        ;
+
+        
+    
+    
+                marker_ac9289e7060100741da4361fecaebd3d.setIcon(icon_53b000dadb0c19d6aca1a695c4cc588d);
+            
+    
+            var marker_2fc4a26fc089e8749cc77665d227a54f = L.marker(
+                [-23.58001483, -46.466651417],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_559b0f1483152f3f13a09cd755abe219 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a16a8d44f797fbd3d11db3fbcf1d654f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1ecac25060adfb4dc0add736c759e2b = $(`<div id="html_b1ecac25060adfb4dc0add736c759e2b" style="width: 100.0%; height: 100.0%;">Ozone station - Itaquera</div>`)[0];
+                popup_a16a8d44f797fbd3d11db3fbcf1d654f.setContent(html_b1ecac25060adfb4dc0add736c759e2b);
+            
+        
+
+        marker_2fc4a26fc089e8749cc77665d227a54f.bindPopup(popup_a16a8d44f797fbd3d11db3fbcf1d654f)
+        ;
+
+        
+    
+    
+                marker_2fc4a26fc089e8749cc77665d227a54f.setIcon(icon_559b0f1483152f3f13a09cd755abe219);
+            
+    
+            var marker_cb5b1f0054dee61a7aa795519d3ae504 = L.marker(
+                [-23.531395027, -46.835779738],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_f3dc0fab171b395fbfd6e3a084826bca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a2e99c1a8fb0c980102767838eada954 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dff8d3d803419e1c05fee6e03778fbc9 = $(`<div id="html_dff8d3d803419e1c05fee6e03778fbc9" style="width: 100.0%; height: 100.0%;">Ozone station - Carapicuíba</div>`)[0];
+                popup_a2e99c1a8fb0c980102767838eada954.setContent(html_dff8d3d803419e1c05fee6e03778fbc9);
+            
+        
+
+        marker_cb5b1f0054dee61a7aa795519d3ae504.bindPopup(popup_a2e99c1a8fb0c980102767838eada954)
+        ;
+
+        
+    
+    
+                marker_cb5b1f0054dee61a7aa795519d3ae504.setIcon(icon_f3dc0fab171b395fbfd6e3a084826bca);
+            
+    
+            var marker_8bc4278ab55e29977d95ce1bddb1bee2 = L.marker(
+                [-23.455534257, -46.518533409],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_38acfe87a7b4c4229539b834bf8f5857 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a31de3cc9daea16c16903611a69542e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16ca01ab538ea9fa348b057f153ecef0 = $(`<div id="html_16ca01ab538ea9fa348b057f153ecef0" style="width: 100.0%; height: 100.0%;">Ozone station - Guarulhos</div>`)[0];
+                popup_a31de3cc9daea16c16903611a69542e4.setContent(html_16ca01ab538ea9fa348b057f153ecef0);
+            
+        
+
+        marker_8bc4278ab55e29977d95ce1bddb1bee2.bindPopup(popup_a31de3cc9daea16c16903611a69542e4)
+        ;
+
+        
+    
+    
+                marker_8bc4278ab55e29977d95ce1bddb1bee2.setIcon(icon_38acfe87a7b4c4229539b834bf8f5857);
+            
+    
+            var marker_5499afdc50345525cc5955493e6266cf = L.marker(
+                [-23.68050765, -46.675043166],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_091179a77014aabd19ec6021ad6c809a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7dd1e20cdf58a26bc4860560ce2fe2cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a100aeec6bcc0f292ffde4f2d6254559 = $(`<div id="html_a100aeec6bcc0f292ffde4f2d6254559" style="width: 100.0%; height: 100.0%;">Ozone station - Interlagos</div>`)[0];
+                popup_7dd1e20cdf58a26bc4860560ce2fe2cc.setContent(html_a100aeec6bcc0f292ffde4f2d6254559);
+            
+        
+
+        marker_5499afdc50345525cc5955493e6266cf.bindPopup(popup_7dd1e20cdf58a26bc4860560ce2fe2cc)
+        ;
+
+        
+    
+    
+                marker_5499afdc50345525cc5955493e6266cf.setIcon(icon_091179a77014aabd19ec6021ad6c809a);
+            
+    
+            var marker_e4cb976f622896739e0323ec2fb8d238 = L.marker(
+                [-23.668356145, -46.780043393],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_5a73f8f7ad461fa8d203c2c3540d908a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_647397ce7d5f67f8e80578c9ab587568 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b572a5ecab1f303db64e52f9353e8f8 = $(`<div id="html_5b572a5ecab1f303db64e52f9353e8f8" style="width: 100.0%; height: 100.0%;">Ozone station - Capão Redondo</div>`)[0];
+                popup_647397ce7d5f67f8e80578c9ab587568.setContent(html_5b572a5ecab1f303db64e52f9353e8f8);
+            
+        
+
+        marker_e4cb976f622896739e0323ec2fb8d238.bindPopup(popup_647397ce7d5f67f8e80578c9ab587568)
+        ;
+
+        
+    
+    
+                marker_e4cb976f622896739e0323ec2fb8d238.setIcon(icon_5a73f8f7ad461fa8d203c2c3540d908a);
+            
+    
+            var marker_7a6e60875aacb2d25a03286a7ff7422f = L.marker(
+                [-23.698671085, -46.546232193],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_40bd712e811399347bbf01bfceae3f82 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4b5f761d198560b9994e9805e98b4368 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0fb95faf7f3455baa82b8e1dbe799643 = $(`<div id="html_0fb95faf7f3455baa82b8e1dbe799643" style="width: 100.0%; height: 100.0%;">Ozone station - S.Bernardo</div>`)[0];
+                popup_4b5f761d198560b9994e9805e98b4368.setContent(html_0fb95faf7f3455baa82b8e1dbe799643);
+            
+        
+
+        marker_7a6e60875aacb2d25a03286a7ff7422f.bindPopup(popup_4b5f761d198560b9994e9805e98b4368)
+        ;
+
+        
+    
+    
+                marker_7a6e60875aacb2d25a03286a7ff7422f.setIcon(icon_40bd712e811399347bbf01bfceae3f82);
+            
+    
+            var marker_0fcb53894373cdee9e82eacaffd1a127 = L.marker(
+                [-23.440117007, -46.409948776],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_67d6948a49973d4e19b2547052ded047 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_95bd8a0595156e60c12499a55d7a7184 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_261489f5e89f941f39717cadc8b3b532 = $(`<div id="html_261489f5e89f941f39717cadc8b3b532" style="width: 100.0%; height: 100.0%;">Ozone station - Pimentas</div>`)[0];
+                popup_95bd8a0595156e60c12499a55d7a7184.setContent(html_261489f5e89f941f39717cadc8b3b532);
+            
+        
+
+        marker_0fcb53894373cdee9e82eacaffd1a127.bindPopup(popup_95bd8a0595156e60c12499a55d7a7184)
+        ;
+
+        
+    
+    
+                marker_0fcb53894373cdee9e82eacaffd1a127.setIcon(icon_67d6948a49973d4e19b2547052ded047);
+            
+    
+            var marker_64ab161af1262b187487c17a85cd1198 = L.marker(
+                [-23.544845658, -46.627675599],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_413dc17c7b1f843cada6a40dcf50a37f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_09c552a19ac0022fa0d1d82c5caa3057 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da7b950989fdb8243a19ea7931f136cc = $(`<div id="html_da7b950989fdb8243a19ea7931f136cc" style="width: 100.0%; height: 100.0%;">Ozone station - Pedro II</div>`)[0];
+                popup_09c552a19ac0022fa0d1d82c5caa3057.setContent(html_da7b950989fdb8243a19ea7931f136cc);
+            
+        
+
+        marker_64ab161af1262b187487c17a85cd1198.bindPopup(popup_09c552a19ac0022fa0d1d82c5caa3057)
+        ;
+
+        
+    
+    
+                marker_64ab161af1262b187487c17a85cd1198.setIcon(icon_413dc17c7b1f843cada6a40dcf50a37f);
+            
+    
+            var marker_b81a8f638f7e6742484ef94e2b2db31c = L.marker(
+                [-23.561459894, -46.702016516],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_ff7a8afda4c81bf67373abea0e5e0c64 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7433e766d760e81f38b7e58f7ece1d44 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4e33eb9c0e5c4af5f735b41d0f9c1e1 = $(`<div id="html_a4e33eb9c0e5c4af5f735b41d0f9c1e1" style="width: 100.0%; height: 100.0%;">Ozone station - Pinheiros</div>`)[0];
+                popup_7433e766d760e81f38b7e58f7ece1d44.setContent(html_a4e33eb9c0e5c4af5f735b41d0f9c1e1);
+            
+        
+
+        marker_b81a8f638f7e6742484ef94e2b2db31c.bindPopup(popup_7433e766d760e81f38b7e58f7ece1d44)
+        ;
+
+        
+    
+    
+                marker_b81a8f638f7e6742484ef94e2b2db31c.setIcon(icon_ff7a8afda4c81bf67373abea0e5e0c64);
+            
+    
+            var marker_068d76725cad14de7f6798b5cd7d84e5 = L.marker(
+                [-23.549734044, -46.600416652],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_91c7b678f85534aaba451628fc2d92ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4424524320873787c1f45903e8a6b9e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7eac7edb702e8184096b729258d580e0 = $(`<div id="html_7eac7edb702e8184096b729258d580e0" style="width: 100.0%; height: 100.0%;">Ozone station - Mooca</div>`)[0];
+                popup_4424524320873787c1f45903e8a6b9e0.setContent(html_7eac7edb702e8184096b729258d580e0);
+            
+        
+
+        marker_068d76725cad14de7f6798b5cd7d84e5.bindPopup(popup_4424524320873787c1f45903e8a6b9e0)
+        ;
+
+        
+    
+    
+                marker_068d76725cad14de7f6798b5cd7d84e5.setIcon(icon_91c7b678f85534aaba451628fc2d92ad);
+            
+    
+            var marker_630dd1b745e60a06def13cf4300d1048 = L.marker(
+                [-23.505992721, -46.628960307],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_df48f6a65128c4c00064357495fbe902 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_af1c9198a792c2b965f4c00867220ef1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d93d512f4177831751ff364ee35b41c7 = $(`<div id="html_d93d512f4177831751ff364ee35b41c7" style="width: 100.0%; height: 100.0%;">Ozone station - Santana</div>`)[0];
+                popup_af1c9198a792c2b965f4c00867220ef1.setContent(html_d93d512f4177831751ff364ee35b41c7);
+            
+        
+
+        marker_630dd1b745e60a06def13cf4300d1048.bindPopup(popup_af1c9198a792c2b965f4c00867220ef1)
+        ;
+
+        
+    
+    
+                marker_630dd1b745e60a06def13cf4300d1048.setIcon(icon_df48f6a65128c4c00064357495fbe902);
+            
+    
+            var marker_906b0e240e7b2abf78a02222c5325dbb = L.marker(
+                [-23.685876411, -46.611621939],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_063eae116d8c289700ce9e49fb1b7f2f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5f4f5c4542d842ad2f41523a2d0a2118 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2385680e0a226c79e2e172c796670612 = $(`<div id="html_2385680e0a226c79e2e172c796670612" style="width: 100.0%; height: 100.0%;">Ozone station - Diadema</div>`)[0];
+                popup_5f4f5c4542d842ad2f41523a2d0a2118.setContent(html_2385680e0a226c79e2e172c796670612);
+            
+        
+
+        marker_906b0e240e7b2abf78a02222c5325dbb.bindPopup(popup_5f4f5c4542d842ad2f41523a2d0a2118)
+        ;
+
+        
+    
+    
+                marker_906b0e240e7b2abf78a02222c5325dbb.setIcon(icon_063eae116d8c289700ce9e49fb1b7f2f);
+            
+    
+            var marker_2d857546be21e005ca051ff265b5fca6 = L.marker(
+                [-23.618442772, -46.556353944],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_6c60735a8edde585c746606823673a74 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_29b69dbe1fe0a70b65344d07784ee017 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ccb4bf8de2b656d1014566531214524b = $(`<div id="html_ccb4bf8de2b656d1014566531214524b" style="width: 100.0%; height: 100.0%;">Ozone station - São Caetano</div>`)[0];
+                popup_29b69dbe1fe0a70b65344d07784ee017.setContent(html_ccb4bf8de2b656d1014566531214524b);
+            
+        
+
+        marker_2d857546be21e005ca051ff265b5fca6.bindPopup(popup_29b69dbe1fe0a70b65344d07784ee017)
+        ;
+
+        
+    
+    
+                marker_2d857546be21e005ca051ff265b5fca6.setIcon(icon_6c60735a8edde585c746606823673a74);
+            
+    
+            var marker_4124bee65193cae4969f7b2bb0f4b651 = L.marker(
+                [-23.639803698, -46.491636771],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_a8a73080bd48b49ec5438b304d3979aa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_85bf672969dd1b7d5faf17ff3eba708d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a600546592a61e6be9abef9099181d43 = $(`<div id="html_a600546592a61e6be9abef9099181d43" style="width: 100.0%; height: 100.0%;">Ozone station - Capuava</div>`)[0];
+                popup_85bf672969dd1b7d5faf17ff3eba708d.setContent(html_a600546592a61e6be9abef9099181d43);
+            
+        
+
+        marker_4124bee65193cae4969f7b2bb0f4b651.bindPopup(popup_85bf672969dd1b7d5faf17ff3eba708d)
+        ;
+
+        
+    
+    
+                marker_4124bee65193cae4969f7b2bb0f4b651.setIcon(icon_a8a73080bd48b49ec5438b304d3979aa);
+            
+    
+            var marker_7910814828270e1a3b4aa956690e7c91 = L.marker(
+                [-23.518796293333335, -46.579999996666665],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_f84b8642f5a97f4d74b5555d5fc4f282 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_60eb6a3a87531971cfa9a6d44c1f8c1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ea0ccd2dbd43fcfd4e40bcdfcda963e = $(`<div id="html_1ea0ccd2dbd43fcfd4e40bcdfcda963e" style="width: 100.0%; height: 100.0%;">Average Location of Weather Stations for SP_1</div>`)[0];
+                popup_60eb6a3a87531971cfa9a6d44c1f8c1d.setContent(html_1ea0ccd2dbd43fcfd4e40bcdfcda963e);
+            
+        
+
+        marker_7910814828270e1a3b4aa956690e7c91.bindPopup(popup_60eb6a3a87531971cfa9a6d44c1f8c1d)
+        ;
+
+        
+    
+    
+                marker_7910814828270e1a3b4aa956690e7c91.setIcon(icon_f84b8642f5a97f4d74b5555d5fc4f282);
+            
+    
+            var circle_marker_6ca6d203a91792da681304ab4fbfa756 = L.circleMarker(
+                [-23.49638888, -46.61999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+        var popup_794b289971bf116bcd993d42a925d116 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc175d71c5ce1af87c3d8ab78a6caf00 = $(`<div id="html_fc175d71c5ce1af87c3d8ab78a6caf00" style="width: 100.0%; height: 100.0%;">Temperature data (SAO PAULO(MIR,de SANTANA))</div>`)[0];
+                popup_794b289971bf116bcd993d42a925d116.setContent(html_fc175d71c5ce1af87c3d8ab78a6caf00);
+            
+        
+
+        circle_marker_6ca6d203a91792da681304ab4fbfa756.bindPopup(popup_794b289971bf116bcd993d42a925d116)
+        ;
+
+        
+    
+    
+            var circle_marker_36517d97cd3625d254bfafba264f6093 = L.circleMarker(
+                [-23.62, -46.65],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+        var popup_182a3db05f927348acbdb2bba259c20f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_215316b8878806e6356f701363a3d38b = $(`<div id="html_215316b8878806e6356f701363a3d38b" style="width: 100.0%; height: 100.0%;">Temperature data (SAO PAULO- AEROPORTO)</div>`)[0];
+                popup_182a3db05f927348acbdb2bba259c20f.setContent(html_215316b8878806e6356f701363a3d38b);
+            
+        
+
+        circle_marker_36517d97cd3625d254bfafba264f6093.bindPopup(popup_182a3db05f927348acbdb2bba259c20f)
+        ;
+
+        
+    
+    
+            var circle_marker_e73388fa66e443f3316edf86048b4cae = L.circleMarker(
+                [-23.44, -46.47],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+        var popup_ca1ffa98ac3d6069450599a7d8aef043 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b83e36c200a9a9a4cd5a623ead34dc2 = $(`<div id="html_2b83e36c200a9a9a4cd5a623ead34dc2" style="width: 100.0%; height: 100.0%;">Temperature data (GUARULHOS - AEROPORTO)</div>`)[0];
+                popup_ca1ffa98ac3d6069450599a7d8aef043.setContent(html_2b83e36c200a9a9a4cd5a623ead34dc2);
+            
+        
+
+        circle_marker_e73388fa66e443f3316edf86048b4cae.bindPopup(popup_ca1ffa98ac3d6069450599a7d8aef043)
+        ;
+
+        
+    
+    
+            var marker_992f64b4dfa785e1d3325a0bcad3acc7 = L.marker(
+                [-23.591841989, -46.66068751],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_d0d2b43898b18e2457bda3a0259d0004 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a683f015c54638f93d34a9c2013803e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e38db9f1d6b764d4385ac26cf8ed83d = $(`<div id="html_5e38db9f1d6b764d4385ac26cf8ed83d" style="width: 100.0%; height: 100.0%;">Ozone station - Ibirapuera</div>`)[0];
+                popup_a683f015c54638f93d34a9c2013803e5.setContent(html_5e38db9f1d6b764d4385ac26cf8ed83d);
+            
+        
+
+        marker_992f64b4dfa785e1d3325a0bcad3acc7.bindPopup(popup_a683f015c54638f93d34a9c2013803e5)
+        ;
+
+        
+    
+    
+                marker_992f64b4dfa785e1d3325a0bcad3acc7.setIcon(icon_d0d2b43898b18e2457bda3a0259d0004);
+            
+    
+            var marker_4503775d0acac7368a6c001919c0fc3a = L.marker(
+                [-23.566341774, -46.73741429],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_50dd636b090ea1890b37fc820b9ff8dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3580b165fc26a91625c60337f0cb26c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6cc781665da2a870f1806d8d93b9290f = $(`<div id="html_6cc781665da2a870f1806d8d93b9290f" style="width: 100.0%; height: 100.0%;">Ozone station - USP</div>`)[0];
+                popup_3580b165fc26a91625c60337f0cb26c9.setContent(html_6cc781665da2a870f1806d8d93b9290f);
+            
+        
+
+        marker_4503775d0acac7368a6c001919c0fc3a.bindPopup(popup_3580b165fc26a91625c60337f0cb26c9)
+        ;
+
+        
+    
+    
+                marker_4503775d0acac7368a6c001919c0fc3a.setIcon(icon_50dd636b090ea1890b37fc820b9ff8dc);
+            
+    
+            var marker_c8f5ace0218031d548e18ac9f6d0dc75 = L.marker(
+                [-23.456268899, -46.766097768],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_787a706939d6f82fd08ca470786cb3dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c839fdd1cc9e2fef0ec9fe6e62313e8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6be16be66a3607dd590d4c41d648909e = $(`<div id="html_6be16be66a3607dd590d4c41d648909e" style="width: 100.0%; height: 100.0%;">Ozone station - Jaraguá</div>`)[0];
+                popup_c839fdd1cc9e2fef0ec9fe6e62313e8d.setContent(html_6be16be66a3607dd590d4c41d648909e);
+            
+        
+
+        marker_c8f5ace0218031d548e18ac9f6d0dc75.bindPopup(popup_c839fdd1cc9e2fef0ec9fe6e62313e8d)
+        ;
+
+        
+    
+    
+                marker_c8f5ace0218031d548e18ac9f6d0dc75.setIcon(icon_787a706939d6f82fd08ca470786cb3dc);
+            
+    
+            var marker_c33d431c006c59d475057d81e25bbe61 = L.marker(
+                [-23.518796293333335, -46.579999996666665],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_3c15480882abc0f800f3f84bd181e977 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0553349d471e75051e6c968b73c3b43e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc2dd59bd5a242161035a992e2a5847e = $(`<div id="html_cc2dd59bd5a242161035a992e2a5847e" style="width: 100.0%; height: 100.0%;">Average Location of Weather Stations for SP_2</div>`)[0];
+                popup_0553349d471e75051e6c968b73c3b43e.setContent(html_cc2dd59bd5a242161035a992e2a5847e);
+            
+        
+
+        marker_c33d431c006c59d475057d81e25bbe61.bindPopup(popup_0553349d471e75051e6c968b73c3b43e)
+        ;
+
+        
+    
+    
+                marker_c33d431c006c59d475057d81e25bbe61.setIcon(icon_3c15480882abc0f800f3f84bd181e977);
+            
+    
+            var circle_marker_00b4e12ad775e7927a525a21e019b5cc = L.circleMarker(
+                [-22.9, -43.15],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+        var popup_e4db913e314e1e87520fede40bc3c5e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_137587e7b5cc37c8a40cd8d616b7b7ea = $(`<div id="html_137587e7b5cc37c8a40cd8d616b7b7ea" style="width: 100.0%; height: 100.0%;">Temperature data (RIO DE JANEIRO - DECEA)</div>`)[0];
+                popup_e4db913e314e1e87520fede40bc3c5e4.setContent(html_137587e7b5cc37c8a40cd8d616b7b7ea);
+            
+        
+
+        circle_marker_00b4e12ad775e7927a525a21e019b5cc.bindPopup(popup_e4db913e314e1e87520fede40bc3c5e4)
+        ;
+
+        
+    
+    
+            var marker_030a7e5c724fb08b735d485c2efb615c = L.marker(
+                [-22.96500373, -43.18048165],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_2aa9776f77a6d5cd7118937cd88663e9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0695557ed74d94bd6339279b6a6afb53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0cb6696926c112215855da5e286c4a1b = $(`<div id="html_0cb6696926c112215855da5e286c4a1b" style="width: 100.0%; height: 100.0%;">Ozone station - AV</div>`)[0];
+                popup_0695557ed74d94bd6339279b6a6afb53.setContent(html_0cb6696926c112215855da5e286c4a1b);
+            
+        
+
+        marker_030a7e5c724fb08b735d485c2efb615c.bindPopup(popup_0695557ed74d94bd6339279b6a6afb53)
+        ;
+
+        
+    
+    
+                marker_030a7e5c724fb08b735d485c2efb615c.setIcon(icon_2aa9776f77a6d5cd7118937cd88663e9);
+            
+    
+            var marker_ce0f21181632d20562cb62e1a6ade486 = L.marker(
+                [-22.90834428, -43.17815176],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_75e7d47c7d94c420994af8122b0b0249 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3827b3c4ab06b6fa67f19448afd81d22 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_287fd329b4cf65520b53323abfec5eaa = $(`<div id="html_287fd329b4cf65520b53323abfec5eaa" style="width: 100.0%; height: 100.0%;">Ozone station - CA</div>`)[0];
+                popup_3827b3c4ab06b6fa67f19448afd81d22.setContent(html_287fd329b4cf65520b53323abfec5eaa);
+            
+        
+
+        marker_ce0f21181632d20562cb62e1a6ade486.bindPopup(popup_3827b3c4ab06b6fa67f19448afd81d22)
+        ;
+
+        
+    
+    
+                marker_ce0f21181632d20562cb62e1a6ade486.setIcon(icon_75e7d47c7d94c420994af8122b0b0249);
+            
+    
+            var marker_6379235b5d3f12000de82f89ae7aa6fe = L.marker(
+                [-22.89777109, -43.22174541],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_a0d7ae7a402a8e93f7bfbb6275f27c88 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_17b4108639367cb4f5516f93d3d3e2e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4765e57253bd43af9dc896c7b3044a14 = $(`<div id="html_4765e57253bd43af9dc896c7b3044a14" style="width: 100.0%; height: 100.0%;">Ozone station - SC</div>`)[0];
+                popup_17b4108639367cb4f5516f93d3d3e2e7.setContent(html_4765e57253bd43af9dc896c7b3044a14);
+            
+        
+
+        marker_6379235b5d3f12000de82f89ae7aa6fe.bindPopup(popup_17b4108639367cb4f5516f93d3d3e2e7)
+        ;
+
+        
+    
+    
+                marker_6379235b5d3f12000de82f89ae7aa6fe.setIcon(icon_a0d7ae7a402a8e93f7bfbb6275f27c88);
+            
+    
+            var marker_4ab9e1085648e6bf188ebc9b5e2bf065 = L.marker(
+                [-22.92491534, -43.23265652],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_12888f362691686b286447de76197d51 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_987afccd9f6687874db105e6981225ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_780fc6c95a78a3bb7730de07d3c79b94 = $(`<div id="html_780fc6c95a78a3bb7730de07d3c79b94" style="width: 100.0%; height: 100.0%;">Ozone station - SP</div>`)[0];
+                popup_987afccd9f6687874db105e6981225ac.setContent(html_780fc6c95a78a3bb7730de07d3c79b94);
+            
+        
+
+        marker_4ab9e1085648e6bf188ebc9b5e2bf065.bindPopup(popup_987afccd9f6687874db105e6981225ac)
+        ;
+
+        
+    
+    
+                marker_4ab9e1085648e6bf188ebc9b5e2bf065.setIcon(icon_12888f362691686b286447de76197d51);
+            
+    
+            var marker_844bd626af7d29059000ec0d4a3d07c5 = L.marker(
+                [-22.9, -43.15],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_d3e3937b6c66cb1d14e18cf45bcd1e9b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cb327101bcc6ec4c8e08b087045028cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63772cf52053a91a34f1050c26d8c7d9 = $(`<div id="html_63772cf52053a91a34f1050c26d8c7d9" style="width: 100.0%; height: 100.0%;">Average Location of Weather Stations for RJ_1</div>`)[0];
+                popup_cb327101bcc6ec4c8e08b087045028cf.setContent(html_63772cf52053a91a34f1050c26d8c7d9);
+            
+        
+
+        marker_844bd626af7d29059000ec0d4a3d07c5.bindPopup(popup_cb327101bcc6ec4c8e08b087045028cf)
+        ;
+
+        
+    
+    
+                marker_844bd626af7d29059000ec0d4a3d07c5.setIcon(icon_d3e3937b6c66cb1d14e18cf45bcd1e9b);
+            
+    
+            var circle_marker_f071ed6be47dd2a9ed423efc661e89df = L.circleMarker(
+                [-22.88, -43.38],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+        var popup_c0c8e54f4e97c39c321505801cba2308 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a68761dcb2c85c6a457f0ad1c77d044 = $(`<div id="html_5a68761dcb2c85c6a457f0ad1c77d044" style="width: 100.0%; height: 100.0%;">Temperature data (AFONSOS - AEROPORTO)</div>`)[0];
+                popup_c0c8e54f4e97c39c321505801cba2308.setContent(html_5a68761dcb2c85c6a457f0ad1c77d044);
+            
+        
+
+        circle_marker_f071ed6be47dd2a9ed423efc661e89df.bindPopup(popup_c0c8e54f4e97c39c321505801cba2308)
+        ;
+
+        
+    
+    
+            var circle_marker_785b18fcca9b5e8ceec1f14022f23f24 = L.circleMarker(
+                [-22.93, -43.72],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+        var popup_99eeb3b14ec1e17c7f782edbf7c81643 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c48d0a599966edd190d9dd9867f91dad = $(`<div id="html_c48d0a599966edd190d9dd9867f91dad" style="width: 100.0%; height: 100.0%;">Temperature data (SANTA CRUZ)</div>`)[0];
+                popup_99eeb3b14ec1e17c7f782edbf7c81643.setContent(html_c48d0a599966edd190d9dd9867f91dad);
+            
+        
+
+        circle_marker_785b18fcca9b5e8ceec1f14022f23f24.bindPopup(popup_99eeb3b14ec1e17c7f782edbf7c81643)
+        ;
+
+        
+    
+    
+            var marker_1af7ac970b2e49a290a0d83fb36f66d2 = L.marker(
+                [-22.88790959, -43.47107415],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_526d44bbd41ed70145c74e5cb6eb9cb0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d3331bce6365610f8f54fb0cff6adf56 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_391929f31d4c90a5cb3f979dc7ad16ca = $(`<div id="html_391929f31d4c90a5cb3f979dc7ad16ca" style="width: 100.0%; height: 100.0%;">Ozone station - BG</div>`)[0];
+                popup_d3331bce6365610f8f54fb0cff6adf56.setContent(html_391929f31d4c90a5cb3f979dc7ad16ca);
+            
+        
+
+        marker_1af7ac970b2e49a290a0d83fb36f66d2.bindPopup(popup_d3331bce6365610f8f54fb0cff6adf56)
+        ;
+
+        
+    
+    
+                marker_1af7ac970b2e49a290a0d83fb36f66d2.setIcon(icon_526d44bbd41ed70145c74e5cb6eb9cb0);
+            
+    
+            var marker_d0fbac8d1dc9af441fb74f79fb7210bf = L.marker(
+                [-22.88625468, -43.55652197],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_531430b7b2c3059e5a4cfb4bf5b0a118 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_50188f5d0d564f8127c1c4e571d5a6f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32050b953838af3b0144a944dd066b87 = $(`<div id="html_32050b953838af3b0144a944dd066b87" style="width: 100.0%; height: 100.0%;">Ozone station - CG</div>`)[0];
+                popup_50188f5d0d564f8127c1c4e571d5a6f5.setContent(html_32050b953838af3b0144a944dd066b87);
+            
+        
+
+        marker_d0fbac8d1dc9af441fb74f79fb7210bf.bindPopup(popup_50188f5d0d564f8127c1c4e571d5a6f5)
+        ;
+
+        
+    
+    
+                marker_d0fbac8d1dc9af441fb74f79fb7210bf.setIcon(icon_531430b7b2c3059e5a4cfb4bf5b0a118);
+            
+    
+            var marker_413066256d8ed4cfa891853798153f33 = L.marker(
+                [-22.8316208, -43.3268447],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_7e85a935a06fb5bae164672c48c054cf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6663d203beb308b8c9594e057998648e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d043438b4248b0915d75671dfbdc1f1d = $(`<div id="html_d043438b4248b0915d75671dfbdc1f1d" style="width: 100.0%; height: 100.0%;">Ozone station - IR</div>`)[0];
+                popup_6663d203beb308b8c9594e057998648e.setContent(html_d043438b4248b0915d75671dfbdc1f1d);
+            
+        
+
+        marker_413066256d8ed4cfa891853798153f33.bindPopup(popup_6663d203beb308b8c9594e057998648e)
+        ;
+
+        
+    
+    
+                marker_413066256d8ed4cfa891853798153f33.setIcon(icon_7e85a935a06fb5bae164672c48c054cf);
+            
+    
+            var marker_de7e2fd75c5e8cf9dd993912aeac0673 = L.marker(
+                [-23.00437898, -43.62901037],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_d4f2fc3a4dc9ca96618d5adee1459e51 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3b53a1aef9beca9672068851e87e77b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38b1f5c9c6fe7648a85ac84d37f35b40 = $(`<div id="html_38b1f5c9c6fe7648a85ac84d37f35b40" style="width: 100.0%; height: 100.0%;">Ozone station - PG</div>`)[0];
+                popup_3b53a1aef9beca9672068851e87e77b3.setContent(html_38b1f5c9c6fe7648a85ac84d37f35b40);
+            
+        
+
+        marker_de7e2fd75c5e8cf9dd993912aeac0673.bindPopup(popup_3b53a1aef9beca9672068851e87e77b3)
+        ;
+
+        
+    
+    
+                marker_de7e2fd75c5e8cf9dd993912aeac0673.setIcon(icon_d4f2fc3a4dc9ca96618d5adee1459e51);
+            
+    
+            var marker_e2940f4626899634f342d440a90fc13d = L.marker(
+                [-22.905, -43.55],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_9c38b6720714e2747c6d6fe5ada0e682 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f1ed1da6659052d59850910ecceeef5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca86988d1a1cd7a4fa23ba6c10342d56 = $(`<div id="html_ca86988d1a1cd7a4fa23ba6c10342d56" style="width: 100.0%; height: 100.0%;">Average Location of Weather Stations for RJ_2</div>`)[0];
+                popup_f1ed1da6659052d59850910ecceeef5e.setContent(html_ca86988d1a1cd7a4fa23ba6c10342d56);
+            
+        
+
+        marker_e2940f4626899634f342d440a90fc13d.bindPopup(popup_f1ed1da6659052d59850910ecceeef5e)
+        ;
+
+        
+    
+    
+                marker_e2940f4626899634f342d440a90fc13d.setIcon(icon_9c38b6720714e2747c6d6fe5ada0e682);
+            
+    
+            var circle_marker_040951e6012f29827f55c007635b9877 = L.circleMarker(
+                [-19.93444444, -43.95222222],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+        var popup_313b94c41da3a18f05c2dd1322ff6615 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1baf8aee273eb8583be4de43c5f7af2d = $(`<div id="html_1baf8aee273eb8583be4de43c5f7af2d" style="width: 100.0%; height: 100.0%;">Temperature data (BELO HORIZONTE)</div>`)[0];
+                popup_313b94c41da3a18f05c2dd1322ff6615.setContent(html_1baf8aee273eb8583be4de43c5f7af2d);
+            
+        
+
+        circle_marker_040951e6012f29827f55c007635b9877.bindPopup(popup_313b94c41da3a18f05c2dd1322ff6615)
+        ;
+
+        
+    
+    
+            var circle_marker_f21ced1db3dc0118e1d158cafdd219b7 = L.circleMarker(
+                [-19.85, -43.95],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+        var popup_be23b8690466cdf2c69804b4a3bd5951 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c643c4edde11190eb6131a97358bc79 = $(`<div id="html_6c643c4edde11190eb6131a97358bc79" style="width: 100.0%; height: 100.0%;">Temperature data (B.HORIZONTE- AEROPORTO)</div>`)[0];
+                popup_be23b8690466cdf2c69804b4a3bd5951.setContent(html_6c643c4edde11190eb6131a97358bc79);
+            
+        
+
+        circle_marker_f21ced1db3dc0118e1d158cafdd219b7.bindPopup(popup_be23b8690466cdf2c69804b4a3bd5951)
+        ;
+
+        
+    
+    
+            var marker_cbc3770b650e7d84fe0c62205499c87b = L.marker(
+                [-19.93747222, -43.99486111],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_003dc0aebe9f94f3dc42d1498136b6b2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_57ef850f73765e8bc81271146d2843c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f8a3592c2b0c8c0863fe65a405d1df3 = $(`<div id="html_2f8a3592c2b0c8c0863fe65a405d1df3" style="width: 100.0%; height: 100.0%;">Ozone station - Avenida Amazonas</div>`)[0];
+                popup_57ef850f73765e8bc81271146d2843c9.setContent(html_2f8a3592c2b0c8c0863fe65a405d1df3);
+            
+        
+
+        marker_cbc3770b650e7d84fe0c62205499c87b.bindPopup(popup_57ef850f73765e8bc81271146d2843c9)
+        ;
+
+        
+    
+    
+                marker_cbc3770b650e7d84fe0c62205499c87b.setIcon(icon_003dc0aebe9f94f3dc42d1498136b6b2);
+            
+    
+            var marker_bc1897181967e743a34915f4e96fa46d = L.marker(
+                [-19.947573, -44.16085],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_4bf90f73b24b59010ab77dbc92c042d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0ddac021ee240309300038caf10aa4d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16741e055dbca670706a4905466dbf02 = $(`<div id="html_16741e055dbca670706a4905466dbf02" style="width: 100.0%; height: 100.0%;">Ozone station - Alterosas</div>`)[0];
+                popup_0ddac021ee240309300038caf10aa4d0.setContent(html_16741e055dbca670706a4905466dbf02);
+            
+        
+
+        marker_bc1897181967e743a34915f4e96fa46d.bindPopup(popup_0ddac021ee240309300038caf10aa4d0)
+        ;
+
+        
+    
+    
+                marker_bc1897181967e743a34915f4e96fa46d.setIcon(icon_4bf90f73b24b59010ab77dbc92c042d3);
+            
+    
+            var marker_ae1836cd4bf7087539229857abf9324c = L.marker(
+                [-19.994425, -44.111125],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_cd13b79013c04aaa0d748811ea00b5bb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_910fe82bddb3c53c69e874ea43cb3573 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63402203194e136ce3b2c7274fe89975 = $(`<div id="html_63402203194e136ce3b2c7274fe89975" style="width: 100.0%; height: 100.0%;">Ozone station - Petrovale</div>`)[0];
+                popup_910fe82bddb3c53c69e874ea43cb3573.setContent(html_63402203194e136ce3b2c7274fe89975);
+            
+        
+
+        marker_ae1836cd4bf7087539229857abf9324c.bindPopup(popup_910fe82bddb3c53c69e874ea43cb3573)
+        ;
+
+        
+    
+    
+                marker_ae1836cd4bf7087539229857abf9324c.setIcon(icon_cd13b79013c04aaa0d748811ea00b5bb);
+            
+    
+            var marker_fe7edcf488de6a3f7c61bb85a1565cd0 = L.marker(
+                [-20.003964, -44.059692],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_f0041523842cacdc44c122f86d84fb24 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_afad0de2d77455068c7e19a76318e475 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53f8dc1c7e54c348753cc26473216534 = $(`<div id="html_53f8dc1c7e54c348753cc26473216534" style="width: 100.0%; height: 100.0%;">Ozone station - Piratininga</div>`)[0];
+                popup_afad0de2d77455068c7e19a76318e475.setContent(html_53f8dc1c7e54c348753cc26473216534);
+            
+        
+
+        marker_fe7edcf488de6a3f7c61bb85a1565cd0.bindPopup(popup_afad0de2d77455068c7e19a76318e475)
+        ;
+
+        
+    
+    
+                marker_fe7edcf488de6a3f7c61bb85a1565cd0.setIcon(icon_f0041523842cacdc44c122f86d84fb24);
+            
+    
+            var marker_1784c5679fda5623702039ce040f7a60 = L.marker(
+                [-19.913322, -43.935744],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_fb78f3adc89ff6a390e61ddd61564154 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_30c506dcba671584f9a7d908e6414f6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d33b2754f750e083f4b7de5730a1853c = $(`<div id="html_d33b2754f750e083f4b7de5730a1853c" style="width: 100.0%; height: 100.0%;">Ozone station - Contorno</div>`)[0];
+                popup_30c506dcba671584f9a7d908e6414f6d.setContent(html_d33b2754f750e083f4b7de5730a1853c);
+            
+        
+
+        marker_1784c5679fda5623702039ce040f7a60.bindPopup(popup_30c506dcba671584f9a7d908e6414f6d)
+        ;
+
+        
+    
+    
+                marker_1784c5679fda5623702039ce040f7a60.setIcon(icon_fb78f3adc89ff6a390e61ddd61564154);
+            
+    
+            var marker_b386ce3af92001f707b70c8f4dff56be = L.marker(
+                [-19.968933, -44.207222],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_f92ee936fefc609b31cb98bb434e547a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8c89ca4a709fcafc9a0963d48cd6118b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e8a75c0de0c8d52526fb55b27000c2e = $(`<div id="html_1e8a75c0de0c8d52526fb55b27000c2e" style="width: 100.0%; height: 100.0%;">Ozone station - Centro Adm</div>`)[0];
+                popup_8c89ca4a709fcafc9a0963d48cd6118b.setContent(html_1e8a75c0de0c8d52526fb55b27000c2e);
+            
+        
+
+        marker_b386ce3af92001f707b70c8f4dff56be.bindPopup(popup_8c89ca4a709fcafc9a0963d48cd6118b)
+        ;
+
+        
+    
+    
+                marker_b386ce3af92001f707b70c8f4dff56be.setIcon(icon_f92ee936fefc609b31cb98bb434e547a);
+            
+    
+            var marker_5c94c9362fdb720270c083f6401bde95 = L.marker(
+                [-19.96071, -44.031357],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_c65f258d695f8a049242ca7c7f9b3c7a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e4aab31c37b6a05403cad9fe8b56f6c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4f8613512dfe258714bc302b7eeaf7c = $(`<div id="html_f4f8613512dfe258714bc302b7eeaf7c" style="width: 100.0%; height: 100.0%;">Ozone station - MG - Cidade Industrial</div>`)[0];
+                popup_e4aab31c37b6a05403cad9fe8b56f6c5.setContent(html_f4f8613512dfe258714bc302b7eeaf7c);
+            
+        
+
+        marker_5c94c9362fdb720270c083f6401bde95.bindPopup(popup_e4aab31c37b6a05403cad9fe8b56f6c5)
+        ;
+
+        
+    
+    
+                marker_5c94c9362fdb720270c083f6401bde95.setIcon(icon_c65f258d695f8a049242ca7c7f9b3c7a);
+            
+    
+            var marker_2b70a6812a8d266419956f486ca3e5eb = L.marker(
+                [-19.987609, -44.086293],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_0e0f811a7d14c11e450f8f214c8bc7e9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b29731b490df410043bf8697b60c001d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f42c9f5a91c16d712ba400a3da8faeff = $(`<div id="html_f42c9f5a91c16d712ba400a3da8faeff" style="width: 100.0%; height: 100.0%;">Ozone station - Cascata</div>`)[0];
+                popup_b29731b490df410043bf8697b60c001d.setContent(html_f42c9f5a91c16d712ba400a3da8faeff);
+            
+        
+
+        marker_2b70a6812a8d266419956f486ca3e5eb.bindPopup(popup_b29731b490df410043bf8697b60c001d)
+        ;
+
+        
+    
+    
+                marker_2b70a6812a8d266419956f486ca3e5eb.setIcon(icon_0e0f811a7d14c11e450f8f214c8bc7e9);
+            
+    
+            var marker_f1768d2db844d1d4d7e7ec1d5175dd75 = L.marker(
+                [-19.976002, -44.025094],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_745ed80012df15a81f60cd3dc2a7ea82 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_405c376f8493549e154eeb75092c2153 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d65711c7aed29ef30d2355eaca09022e = $(`<div id="html_d65711c7aed29ef30d2355eaca09022e" style="width: 100.0%; height: 100.0%;">Ozone station - PUC Barreiro</div>`)[0];
+                popup_405c376f8493549e154eeb75092c2153.setContent(html_d65711c7aed29ef30d2355eaca09022e);
+            
+        
+
+        marker_f1768d2db844d1d4d7e7ec1d5175dd75.bindPopup(popup_405c376f8493549e154eeb75092c2153)
+        ;
+
+        
+    
+    
+                marker_f1768d2db844d1d4d7e7ec1d5175dd75.setIcon(icon_745ed80012df15a81f60cd3dc2a7ea82);
+            
+    
+            var marker_4f6ed8e7acc4c073f72ab645e5e0f8bc = L.marker(
+                [-19.85802, -43.918451],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_43ce694d410bd53d1c720e3dc680ef01 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c3cf47d7f043e74e50d487b63aa9301 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c802aa47574be399385599d2102a950 = $(`<div id="html_9c802aa47574be399385599d2102a950" style="width: 100.0%; height: 100.0%;">Ozone station - PUC São Gabriel</div>`)[0];
+                popup_5c3cf47d7f043e74e50d487b63aa9301.setContent(html_9c802aa47574be399385599d2102a950);
+            
+        
+
+        marker_4f6ed8e7acc4c073f72ab645e5e0f8bc.bindPopup(popup_5c3cf47d7f043e74e50d487b63aa9301)
+        ;
+
+        
+    
+    
+                marker_4f6ed8e7acc4c073f72ab645e5e0f8bc.setIcon(icon_43ce694d410bd53d1c720e3dc680ef01);
+            
+    
+            var marker_8c7646aa319f60386d76b90f3afbddfe = L.marker(
+                [-19.89222222, -43.95111111],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_99caef50471cac18e50be687ace7ca58 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1eb7ed6947c84cbd866013d1ed2595f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc2c3c5b0d7361477778a5ab0c81e420 = $(`<div id="html_bc2c3c5b0d7361477778a5ab0c81e420" style="width: 100.0%; height: 100.0%;">Average Location of Weather Stations for MG_1</div>`)[0];
+                popup_1eb7ed6947c84cbd866013d1ed2595f8.setContent(html_bc2c3c5b0d7361477778a5ab0c81e420);
+            
+        
+
+        marker_8c7646aa319f60386d76b90f3afbddfe.bindPopup(popup_1eb7ed6947c84cbd866013d1ed2595f8)
+        ;
+
+        
+    
+    
+                marker_8c7646aa319f60386d76b90f3afbddfe.setIcon(icon_99caef50471cac18e50be687ace7ca58);
+            
+    
+            var circle_marker_e6d728fa413c71788f9c35b6c0d6ca3e = L.circleMarker(
+                [-19.57388888, -42.62249999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+        var popup_16e529c37a34dba43a5a4abfbc816532 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b08cd75c884199b90b5f5c04b3616d41 = $(`<div id="html_b08cd75c884199b90b5f5c04b3616d41" style="width: 100.0%; height: 100.0%;">Temperature data (TIMOTEO)</div>`)[0];
+                popup_16e529c37a34dba43a5a4abfbc816532.setContent(html_b08cd75c884199b90b5f5c04b3616d41);
+            
+        
+
+        circle_marker_e6d728fa413c71788f9c35b6c0d6ca3e.bindPopup(popup_16e529c37a34dba43a5a4abfbc816532)
+        ;
+
+        
+    
+    
+            var marker_6fca6d73a0e2681f15d4fe32a06cd2d8 = L.marker(
+                [-19.46117222, -42.56020556],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_06378740e07a1717af8e45c20bd3c241 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e15831582ac2556c48a6c62decea3a0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fce06125b5a81c158bf026de55bbe48c = $(`<div id="html_fce06125b5a81c158bf026de55bbe48c" style="width: 100.0%; height: 100.0%;">Ozone station - Cid Nobre</div>`)[0];
+                popup_e15831582ac2556c48a6c62decea3a0d.setContent(html_fce06125b5a81c158bf026de55bbe48c);
+            
+        
+
+        marker_6fca6d73a0e2681f15d4fe32a06cd2d8.bindPopup(popup_e15831582ac2556c48a6c62decea3a0d)
+        ;
+
+        
+    
+    
+                marker_6fca6d73a0e2681f15d4fe32a06cd2d8.setIcon(icon_06378740e07a1717af8e45c20bd3c241);
+            
+    
+            var marker_85b4b3ad02af125db288f44ca78d5362 = L.marker(
+                [-19.49136667, -42.52873889],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_e547d0ee9975e2992e3fb5c837600ae7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c7217e87eeaf20bb4a75c6b7dda9c5f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56f60c5e7922da7ca6e1fb284b513436 = $(`<div id="html_56f60c5e7922da7ca6e1fb284b513436" style="width: 100.0%; height: 100.0%;">Ozone station - Cariru</div>`)[0];
+                popup_c7217e87eeaf20bb4a75c6b7dda9c5f0.setContent(html_56f60c5e7922da7ca6e1fb284b513436);
+            
+        
+
+        marker_85b4b3ad02af125db288f44ca78d5362.bindPopup(popup_c7217e87eeaf20bb4a75c6b7dda9c5f0)
+        ;
+
+        
+    
+    
+                marker_85b4b3ad02af125db288f44ca78d5362.setIcon(icon_e547d0ee9975e2992e3fb5c837600ae7);
+            
+    
+            var marker_09a7bd57257a232b20de2c6dd73ec51b = L.marker(
+                [-19.50959722, -42.55702222],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_72815bc61f5c8e54d8675e4c431e24ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_51a35664af24dbd0c1774b7c4055602d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b199502b7e538283b53594877ae831f8 = $(`<div id="html_b199502b7e538283b53594877ae831f8" style="width: 100.0%; height: 100.0%;">Ozone station - Bom Retiro</div>`)[0];
+                popup_51a35664af24dbd0c1774b7c4055602d.setContent(html_b199502b7e538283b53594877ae831f8);
+            
+        
+
+        marker_09a7bd57257a232b20de2c6dd73ec51b.bindPopup(popup_51a35664af24dbd0c1774b7c4055602d)
+        ;
+
+        
+    
+    
+                marker_09a7bd57257a232b20de2c6dd73ec51b.setIcon(icon_72815bc61f5c8e54d8675e4c431e24ad);
+            
+    
+            var marker_4970e54664bf77aad134de40c5eede3c = L.marker(
+                [-19.472275, -42.52650556],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_46304fa7be9e250455ec688a27765a55 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0a7a6db0a32cce248701ca5d0c8a242f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aad6e088432dfac5d014efd7e032778d = $(`<div id="html_aad6e088432dfac5d014efd7e032778d" style="width: 100.0%; height: 100.0%;">Ozone station - Veneza</div>`)[0];
+                popup_0a7a6db0a32cce248701ca5d0c8a242f.setContent(html_aad6e088432dfac5d014efd7e032778d);
+            
+        
+
+        marker_4970e54664bf77aad134de40c5eede3c.bindPopup(popup_0a7a6db0a32cce248701ca5d0c8a242f)
+        ;
+
+        
+    
+    
+                marker_4970e54664bf77aad134de40c5eede3c.setIcon(icon_46304fa7be9e250455ec688a27765a55);
+            
+    
+            var marker_66eaa4b224a4b2b348ac56da2068b6f7 = L.marker(
+                [-19.54638889, -42.65638889],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_247338875306c165499b586b45fb3b6f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2284682aab5d298bee61c0edde2fd882 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14fa07917087717e82dec2ea1a2fb515 = $(`<div id="html_14fa07917087717e82dec2ea1a2fb515" style="width: 100.0%; height: 100.0%;">Ozone station - Escola Cecília Meireles</div>`)[0];
+                popup_2284682aab5d298bee61c0edde2fd882.setContent(html_14fa07917087717e82dec2ea1a2fb515);
+            
+        
+
+        marker_66eaa4b224a4b2b348ac56da2068b6f7.bindPopup(popup_2284682aab5d298bee61c0edde2fd882)
+        ;
+
+        
+    
+    
+                marker_66eaa4b224a4b2b348ac56da2068b6f7.setIcon(icon_247338875306c165499b586b45fb3b6f);
+            
+    
+            var marker_64cdf748837a06528a9a485e76969d0b = L.marker(
+                [-19.57388888, -42.62249999],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_fee260c05672c7402f6b1b79de5c00b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6ba8c590abaab74ede18f31e3d722004 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61f74ab0fffac00ef2f8dd74708013e0 = $(`<div id="html_61f74ab0fffac00ef2f8dd74708013e0" style="width: 100.0%; height: 100.0%;">Average Location of Weather Stations for MG_2</div>`)[0];
+                popup_6ba8c590abaab74ede18f31e3d722004.setContent(html_61f74ab0fffac00ef2f8dd74708013e0);
+            
+        
+
+        marker_64cdf748837a06528a9a485e76969d0b.bindPopup(popup_6ba8c590abaab74ede18f31e3d722004)
+        ;
+
+        
+    
+    
+                marker_64cdf748837a06528a9a485e76969d0b.setIcon(icon_fee260c05672c7402f6b1b79de5c00b6);
+            
+    
+            var circle_marker_752ca30d7af90a4d3e5148dcbe0c4cf0 = L.circleMarker(
+                [-20.261630871874, -40.283352581673505],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+        var popup_f6c332994b03659ea6b03efe30d8c6df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef50e4c628b1178982907e8a285cefcb = $(`<div id="html_ef50e4c628b1178982907e8a285cefcb" style="width: 100.0%; height: 100.0%;">Temperature data (VITORIA - AEROPORTO)</div>`)[0];
+                popup_f6c332994b03659ea6b03efe30d8c6df.setContent(html_ef50e4c628b1178982907e8a285cefcb);
+            
+        
+
+        circle_marker_752ca30d7af90a4d3e5148dcbe0c4cf0.bindPopup(popup_f6c332994b03659ea6b03efe30d8c6df)
+        ;
+
+        
+    
+    
+            var marker_5d7cc12f7f47a87aed3375e0337ae9f9 = L.marker(
+                [-20.312281, -40.290868],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_6b7e4bdc735c3600385c4da490f0b4d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1ed900ab603cc29e2ef0d82a03105c2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b51e08ac2b7650f2f84d29a10ccb41c7 = $(`<div id="html_b51e08ac2b7650f2f84d29a10ccb41c7" style="width: 100.0%; height: 100.0%;">Ozone station - Vitória</div>`)[0];
+                popup_1ed900ab603cc29e2ef0d82a03105c2b.setContent(html_b51e08ac2b7650f2f84d29a10ccb41c7);
+            
+        
+
+        marker_5d7cc12f7f47a87aed3375e0337ae9f9.bindPopup(popup_1ed900ab603cc29e2ef0d82a03105c2b)
+        ;
+
+        
+    
+    
+                marker_5d7cc12f7f47a87aed3375e0337ae9f9.setIcon(icon_6b7e4bdc735c3600385c4da490f0b4d5);
+            
+    
+            var marker_e3f558d43dcfa64e56d9e97ea3403ee9 = L.marker(
+                [-20.348443, -40.317942],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_48a61992713e63f0113e600594b813b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_89060b889c6385865ca1e2eacc5a60a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e5db8959c0475886671d503fac42004 = $(`<div id="html_9e5db8959c0475886671d503fac42004" style="width: 100.0%; height: 100.0%;">Ozone station - Vila Velha</div>`)[0];
+                popup_89060b889c6385865ca1e2eacc5a60a6.setContent(html_9e5db8959c0475886671d503fac42004);
+            
+        
+
+        marker_e3f558d43dcfa64e56d9e97ea3403ee9.bindPopup(popup_89060b889c6385865ca1e2eacc5a60a6)
+        ;
+
+        
+    
+    
+                marker_e3f558d43dcfa64e56d9e97ea3403ee9.setIcon(icon_48a61992713e63f0113e600594b813b8);
+            
+    
+            var marker_0b3fb5cb603ba7d482c98128449a23b6 = L.marker(
+                [-20.261630871874, -40.283352581673505],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_0d6784a09fa051f4715d249ec2711195 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ea5aaec717bd3f29e6587227ddf2db6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4cc40ac18276cb5372210f79bd86e7c = $(`<div id="html_e4cc40ac18276cb5372210f79bd86e7c" style="width: 100.0%; height: 100.0%;">Average Location of Weather Stations for ES_1</div>`)[0];
+                popup_ea5aaec717bd3f29e6587227ddf2db6e.setContent(html_e4cc40ac18276cb5372210f79bd86e7c);
+            
+        
+
+        marker_0b3fb5cb603ba7d482c98128449a23b6.bindPopup(popup_ea5aaec717bd3f29e6587227ddf2db6e)
+        ;
+
+        
+    
+    
+                marker_0b3fb5cb603ba7d482c98128449a23b6.setIcon(icon_0d6784a09fa051f4715d249ec2711195);
+            
+    
+            var circle_marker_af59888d531d436ed7d66ec37800ea0c = L.circleMarker(
+                [-20.63638888, -40.74194444],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+        var popup_ca37e46688a63bf907db82fa0949baae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a13bc60e8a91bfb4f26478893b655fc3 = $(`<div id="html_a13bc60e8a91bfb4f26478893b655fc3" style="width: 100.0%; height: 100.0%;">Temperature data (ALFREDO CHAVES)</div>`)[0];
+                popup_ca37e46688a63bf907db82fa0949baae.setContent(html_a13bc60e8a91bfb4f26478893b655fc3);
+            
+        
+
+        circle_marker_af59888d531d436ed7d66ec37800ea0c.bindPopup(popup_ca37e46688a63bf907db82fa0949baae)
+        ;
+
+        
+    
+    
+            var marker_1bad08eec867f5ecf390f12cf6ceb567 = L.marker(
+                [-20.741913, -40.599284],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_b0749aed034bde35657fd3139640e6b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_07bc5a0b450ef09fe9697e7a9b9f5a1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d09a3b21af438028a4d57d9bb24b60f = $(`<div id="html_4d09a3b21af438028a4d57d9bb24b60f" style="width: 100.0%; height: 100.0%;">Ozone station - Belo Horizonte</div>`)[0];
+                popup_07bc5a0b450ef09fe9697e7a9b9f5a1e.setContent(html_4d09a3b21af438028a4d57d9bb24b60f);
+            
+        
+
+        marker_1bad08eec867f5ecf390f12cf6ceb567.bindPopup(popup_07bc5a0b450ef09fe9697e7a9b9f5a1e)
+        ;
+
+        
+    
+    
+                marker_1bad08eec867f5ecf390f12cf6ceb567.setIcon(icon_b0749aed034bde35657fd3139640e6b5);
+            
+    
+            var marker_dc1e5391ac50183c8bfbdf748e86c519 = L.marker(
+                [-20.63638888, -40.74194444],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_3a38bc874a82767232977bd4323cb80c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4846b70cf65c0208f94879198ee5bd63 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_adbf8c2ccabdb42d395c3a159a9095b2 = $(`<div id="html_adbf8c2ccabdb42d395c3a159a9095b2" style="width: 100.0%; height: 100.0%;">Average Location of Weather Stations for ES_2</div>`)[0];
+                popup_4846b70cf65c0208f94879198ee5bd63.setContent(html_adbf8c2ccabdb42d395c3a159a9095b2);
+            
+        
+
+        marker_dc1e5391ac50183c8bfbdf748e86c519.bindPopup(popup_4846b70cf65c0208f94879198ee5bd63)
+        ;
+
+        
+    
+    
+                marker_dc1e5391ac50183c8bfbdf748e86c519.setIcon(icon_3a38bc874a82767232977bd4323cb80c);
+            
+    
+            var circle_marker_77d1a499ff984d0c19e347ff5c07ff0c = L.circleMarker(
+                [-25.52, -49.17],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+        var popup_bbbf37299a71d3c5378b1b653231f1db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35c568a2ac4f9ae57171a807ccd29cfb = $(`<div id="html_35c568a2ac4f9ae57171a807ccd29cfb" style="width: 100.0%; height: 100.0%;">Temperature data (CURITIBA - AEROPORTO)</div>`)[0];
+                popup_bbbf37299a71d3c5378b1b653231f1db.setContent(html_35c568a2ac4f9ae57171a807ccd29cfb);
+            
+        
+
+        circle_marker_77d1a499ff984d0c19e347ff5c07ff0c.bindPopup(popup_bbbf37299a71d3c5378b1b653231f1db)
+        ;
+
+        
+    
+    
+            var marker_adc13629ffc7057e5fc500d243722501 = L.marker(
+                [-25.569256, -49.38261],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_b1273f0b56bfa770eeec7cd70a5e91cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2e041c5c6f27db3cfbeea3d8181b9b07 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dae396c9856f633e95a6cd9fd224c861 = $(`<div id="html_dae396c9856f633e95a6cd9fd224c861" style="width: 100.0%; height: 100.0%;">Ozone station - CSN</div>`)[0];
+                popup_2e041c5c6f27db3cfbeea3d8181b9b07.setContent(html_dae396c9856f633e95a6cd9fd224c861);
+            
+        
+
+        marker_adc13629ffc7057e5fc500d243722501.bindPopup(popup_2e041c5c6f27db3cfbeea3d8181b9b07)
+        ;
+
+        
+    
+    
+                marker_adc13629ffc7057e5fc500d243722501.setIcon(icon_b1273f0b56bfa770eeec7cd70a5e91cd);
+            
+    
+            var marker_a9703360ae55df286afbe12e41da6bca = L.marker(
+                [-25.52, -49.17],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_e436bace53337efe51297eb5a98018d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_862b7fcd593247dafc24ecc720a43255 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5645317d2a037211d6cf8427b20c0489 = $(`<div id="html_5645317d2a037211d6cf8427b20c0489" style="width: 100.0%; height: 100.0%;">Average Location of Weather Stations for PR_1</div>`)[0];
+                popup_862b7fcd593247dafc24ecc720a43255.setContent(html_5645317d2a037211d6cf8427b20c0489);
+            
+        
+
+        marker_a9703360ae55df286afbe12e41da6bca.bindPopup(popup_862b7fcd593247dafc24ecc720a43255)
+        ;
+
+        
+    
+    
+                marker_a9703360ae55df286afbe12e41da6bca.setIcon(icon_e436bace53337efe51297eb5a98018d3);
+            
+    
+            var circle_marker_53b13fbdff8e0661bfee9a0436140135 = L.circleMarker(
+                [-25.4, -49.23],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+        var popup_5cd097f4b6aea68f4eb23e9340859696 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_033eb7ae6ee192f7e702e743510648e5 = $(`<div id="html_033eb7ae6ee192f7e702e743510648e5" style="width: 100.0%; height: 100.0%;">Temperature data (BACACHERI)</div>`)[0];
+                popup_5cd097f4b6aea68f4eb23e9340859696.setContent(html_033eb7ae6ee192f7e702e743510648e5);
+            
+        
+
+        circle_marker_53b13fbdff8e0661bfee9a0436140135.bindPopup(popup_5cd097f4b6aea68f4eb23e9340859696)
+        ;
+
+        
+    
+    
+            var circle_marker_baf1d3c21c82de7b811fef7dc414c853 = L.circleMarker(
+                [-25.52, -49.17],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+        var popup_31443b3dda2fe76893ae7b0df6691924 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d858bd0e45dd94d4110f3b6d4e941acd = $(`<div id="html_d858bd0e45dd94d4110f3b6d4e941acd" style="width: 100.0%; height: 100.0%;">Temperature data (CURITIBA - AEROPORTO)</div>`)[0];
+                popup_31443b3dda2fe76893ae7b0df6691924.setContent(html_d858bd0e45dd94d4110f3b6d4e941acd);
+            
+        
+
+        circle_marker_baf1d3c21c82de7b811fef7dc414c853.bindPopup(popup_31443b3dda2fe76893ae7b0df6691924)
+        ;
+
+        
+    
+    
+            var marker_76ce607336e09b44df7a512924e743a0 = L.marker(
+                [-25.576487, -49.405587],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_79c94d4831d9c47d19e491c4769c7a54 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eed1ec449f4b0fbbb09ec201e55753ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a6c52d7fd8f68022122315ee2a973c6 = $(`<div id="html_7a6c52d7fd8f68022122315ee2a973c6" style="width: 100.0%; height: 100.0%;">Ozone station - Assis</div>`)[0];
+                popup_eed1ec449f4b0fbbb09ec201e55753ed.setContent(html_7a6c52d7fd8f68022122315ee2a973c6);
+            
+        
+
+        marker_76ce607336e09b44df7a512924e743a0.bindPopup(popup_eed1ec449f4b0fbbb09ec201e55753ed)
+        ;
+
+        
+    
+    
+                marker_76ce607336e09b44df7a512924e743a0.setIcon(icon_79c94d4831d9c47d19e491c4769c7a54);
+            
+    
+            var marker_2fd747cbf823db568d14483a35dfbd19 = L.marker(
+                [-25.569256, -49.38261],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_c793f9c5a7ca33308fc935c287f48a74 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8a6f5c7eaa5655c36eae4288586d365f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9413c3792d00d2e2e298e03927e68a90 = $(`<div id="html_9413c3792d00d2e2e298e03927e68a90" style="width: 100.0%; height: 100.0%;">Ozone station - CSN_2015</div>`)[0];
+                popup_8a6f5c7eaa5655c36eae4288586d365f.setContent(html_9413c3792d00d2e2e298e03927e68a90);
+            
+        
+
+        marker_2fd747cbf823db568d14483a35dfbd19.bindPopup(popup_8a6f5c7eaa5655c36eae4288586d365f)
+        ;
+
+        
+    
+    
+                marker_2fd747cbf823db568d14483a35dfbd19.setIcon(icon_c793f9c5a7ca33308fc935c287f48a74);
+            
+    
+            var marker_2302e34e17315e49cab08b1b956883a4 = L.marker(
+                [-25.493174, -49.245802],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_2fa27595b06ed2abe329f3e6073950dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a196dac61b7a7716a986fb0e73ec2ed4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_793cf5bf2fbdc26533bcc3e548fc3a45 = $(`<div id="html_793cf5bf2fbdc26533bcc3e548fc3a45" style="width: 100.0%; height: 100.0%;">Ozone station - Boqueirão</div>`)[0];
+                popup_a196dac61b7a7716a986fb0e73ec2ed4.setContent(html_793cf5bf2fbdc26533bcc3e548fc3a45);
+            
+        
+
+        marker_2302e34e17315e49cab08b1b956883a4.bindPopup(popup_a196dac61b7a7716a986fb0e73ec2ed4)
+        ;
+
+        
+    
+    
+                marker_2302e34e17315e49cab08b1b956883a4.setIcon(icon_2fa27595b06ed2abe329f3e6073950dd);
+            
+    
+            var marker_d6986c3506d9c96eca155188a9d1c431 = L.marker(
+                [-25.444686, -49.27174],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_9ccd8f5b8354207e46550b9172dfef07 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_53252829f4deeceac2b04f46a60ff105 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_401e25a4502aba8006a5b13de9145ce2 = $(`<div id="html_401e25a4502aba8006a5b13de9145ce2" style="width: 100.0%; height: 100.0%;">Ozone station - Praça Ouvidor Pardinho</div>`)[0];
+                popup_53252829f4deeceac2b04f46a60ff105.setContent(html_401e25a4502aba8006a5b13de9145ce2);
+            
+        
+
+        marker_d6986c3506d9c96eca155188a9d1c431.bindPopup(popup_53252829f4deeceac2b04f46a60ff105)
+        ;
+
+        
+    
+    
+                marker_d6986c3506d9c96eca155188a9d1c431.setIcon(icon_9ccd8f5b8354207e46550b9172dfef07);
+            
+    
+            var marker_d09a283da613596ff7aacd4f0100a06a = L.marker(
+                [-25.553181, -49.391096],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_a871293c3b799e3291a16171f896935d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c5cef1ef2fc768c205df557f53e9e9f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da5bcc5f5b70413b9f94262877133bc2 = $(`<div id="html_da5bcc5f5b70413b9f94262877133bc2" style="width: 100.0%; height: 100.0%;">Ozone station - REPAR</div>`)[0];
+                popup_c5cef1ef2fc768c205df557f53e9e9f9.setContent(html_da5bcc5f5b70413b9f94262877133bc2);
+            
+        
+
+        marker_d09a283da613596ff7aacd4f0100a06a.bindPopup(popup_c5cef1ef2fc768c205df557f53e9e9f9)
+        ;
+
+        
+    
+    
+                marker_d09a283da613596ff7aacd4f0100a06a.setIcon(icon_a871293c3b799e3291a16171f896935d);
+            
+    
+            var marker_169a5c3e5b00f22ddac16290a075df30 = L.marker(
+                [-25.588083, -49.405911],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_2e62f676857b2ac05a0be0fdf5abee76 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_88377b9cb790e3a2feb10399583a6209 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a20bf3ec53d0bad1e1295396a0a5906e = $(`<div id="html_a20bf3ec53d0bad1e1295396a0a5906e" style="width: 100.0%; height: 100.0%;">Ozone station - UEG</div>`)[0];
+                popup_88377b9cb790e3a2feb10399583a6209.setContent(html_a20bf3ec53d0bad1e1295396a0a5906e);
+            
+        
+
+        marker_169a5c3e5b00f22ddac16290a075df30.bindPopup(popup_88377b9cb790e3a2feb10399583a6209)
+        ;
+
+        
+    
+    
+                marker_169a5c3e5b00f22ddac16290a075df30.setIcon(icon_2e62f676857b2ac05a0be0fdf5abee76);
+            
+    
+            var marker_f7324b52395cebab91732355fe7ecb09 = L.marker(
+                [-25.373802, -49.213078],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_277c95fb5de565754b0d1fbda0bf796b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ede9fcd8b2efd0dc8885a1b5ec846cee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84f44e8431879c67f09a60446b99ee8c = $(`<div id="html_84f44e8431879c67f09a60446b99ee8c" style="width: 100.0%; height: 100.0%;">Ozone station - Santa Cândida</div>`)[0];
+                popup_ede9fcd8b2efd0dc8885a1b5ec846cee.setContent(html_84f44e8431879c67f09a60446b99ee8c);
+            
+        
+
+        marker_f7324b52395cebab91732355fe7ecb09.bindPopup(popup_ede9fcd8b2efd0dc8885a1b5ec846cee)
+        ;
+
+        
+    
+    
+                marker_f7324b52395cebab91732355fe7ecb09.setIcon(icon_277c95fb5de565754b0d1fbda0bf796b);
+            
+    
+            var marker_819bc9a902c36a78a1b14d5c1dd6fe6f = L.marker(
+                [-25.46, -49.2],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_07fa747426f046b4822080926b03bf4e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c4755931fa528980ef165e9db77a9141 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8190c7ca09997f63b95e6e0fe7bc55b3 = $(`<div id="html_8190c7ca09997f63b95e6e0fe7bc55b3" style="width: 100.0%; height: 100.0%;">Average Location of Weather Stations for PR_2</div>`)[0];
+                popup_c4755931fa528980ef165e9db77a9141.setContent(html_8190c7ca09997f63b95e6e0fe7bc55b3);
+            
+        
+
+        marker_819bc9a902c36a78a1b14d5c1dd6fe6f.bindPopup(popup_c4755931fa528980ef165e9db77a9141)
+        ;
+
+        
+    
+    
+                marker_819bc9a902c36a78a1b14d5c1dd6fe6f.setIcon(icon_07fa747426f046b4822080926b03bf4e);
+            
+    
+            var circle_marker_bb876c7cc89967c9b845c6e3e0b144ef = L.circleMarker(
+                [-30.05361111, -51.17472221],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+        var popup_320c4aa0686c28550056745cbbf59eeb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f0c240c2432e48eb6eee265c7391d05c = $(`<div id="html_f0c240c2432e48eb6eee265c7391d05c" style="width: 100.0%; height: 100.0%;">Temperature data (PORTO ALEGRE)</div>`)[0];
+                popup_320c4aa0686c28550056745cbbf59eeb.setContent(html_f0c240c2432e48eb6eee265c7391d05c);
+            
+        
+
+        circle_marker_bb876c7cc89967c9b845c6e3e0b144ef.bindPopup(popup_320c4aa0686c28550056745cbbf59eeb)
+        ;
+
+        
+    
+    
+            var circle_marker_d1c7d9ecd1474075d55b718493bae523 = L.circleMarker(
+                [-29.99, -51.17],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+        var popup_2cd942f2ccae6f4b434f2965621a4280 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b772fed1eb6c4fbc6b6f6c0b9e0904fe = $(`<div id="html_b772fed1eb6c4fbc6b6f6c0b9e0904fe" style="width: 100.0%; height: 100.0%;">Temperature data (PORTO ALEGRE - AEROPORTO)</div>`)[0];
+                popup_2cd942f2ccae6f4b434f2965621a4280.setContent(html_b772fed1eb6c4fbc6b6f6c0b9e0904fe);
+            
+        
+
+        circle_marker_d1c7d9ecd1474075d55b718493bae523.bindPopup(popup_2cd942f2ccae6f4b434f2965621a4280)
+        ;
+
+        
+    
+    
+            var marker_0ef5c26927419615dd022a36ac5d2d1c = L.marker(
+                [-29.88396, -51.144387],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_9c43c580d498f3244e2679a44d3e59df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7b88008fc6f7e9c03fc2417ef820fc81 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d32a5f6616ceed1a2b7107585d384fef = $(`<div id="html_d32a5f6616ceed1a2b7107585d384fef" style="width: 100.0%; height: 100.0%;">Ozone station - Canoas</div>`)[0];
+                popup_7b88008fc6f7e9c03fc2417ef820fc81.setContent(html_d32a5f6616ceed1a2b7107585d384fef);
+            
+        
+
+        marker_0ef5c26927419615dd022a36ac5d2d1c.bindPopup(popup_7b88008fc6f7e9c03fc2417ef820fc81)
+        ;
+
+        
+    
+    
+                marker_0ef5c26927419615dd022a36ac5d2d1c.setIcon(icon_9c43c580d498f3244e2679a44d3e59df);
+            
+    
+            var marker_cdcbceb92b2d5750b470ee8081d2bdc7 = L.marker(
+                [-29.853688, -51.18395153],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_af6c72cb6465016ef5f6948dc3af69b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9f14581d8bc6156a5aed8f834271b56b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f58755eeaa3f7c852f50d07f38a61e2f = $(`<div id="html_f58755eeaa3f7c852f50d07f38a61e2f" style="width: 100.0%; height: 100.0%;">Ozone station - Esteio</div>`)[0];
+                popup_9f14581d8bc6156a5aed8f834271b56b.setContent(html_f58755eeaa3f7c852f50d07f38a61e2f);
+            
+        
+
+        marker_cdcbceb92b2d5750b470ee8081d2bdc7.bindPopup(popup_9f14581d8bc6156a5aed8f834271b56b)
+        ;
+
+        
+    
+    
+                marker_cdcbceb92b2d5750b470ee8081d2bdc7.setIcon(icon_af6c72cb6465016ef5f6948dc3af69b9);
+            
+    
+            var marker_5eba629fb26708864013462765a462f1 = L.marker(
+                [-30.113882, -51.332025],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_f583c44cd546483fca1dea83310f8d8b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_422c8102a2047bed54b54ab49485e807 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2adbb6547596a333c6c06d15c84fff5a = $(`<div id="html_2adbb6547596a333c6c06d15c84fff5a" style="width: 100.0%; height: 100.0%;">Ozone station - Guaiba</div>`)[0];
+                popup_422c8102a2047bed54b54ab49485e807.setContent(html_2adbb6547596a333c6c06d15c84fff5a);
+            
+        
+
+        marker_5eba629fb26708864013462765a462f1.bindPopup(popup_422c8102a2047bed54b54ab49485e807)
+        ;
+
+        
+    
+    
+                marker_5eba629fb26708864013462765a462f1.setIcon(icon_f583c44cd546483fca1dea83310f8d8b);
+            
+    
+            var marker_7dfa71d65052db8712a7a71000f7d4a9 = L.marker(
+                [-29.923819, -50.987568],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_680728439ccbd317dcc83cb76c075542 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_030e4e465f60ca041f6d91ad1cbf2741 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d6d9d17014f9c473f47a6fc8a2d0c4c = $(`<div id="html_5d6d9d17014f9c473f47a6fc8a2d0c4c" style="width: 100.0%; height: 100.0%;">Ozone station - Gravatai</div>`)[0];
+                popup_030e4e465f60ca041f6d91ad1cbf2741.setContent(html_5d6d9d17014f9c473f47a6fc8a2d0c4c);
+            
+        
+
+        marker_7dfa71d65052db8712a7a71000f7d4a9.bindPopup(popup_030e4e465f60ca041f6d91ad1cbf2741)
+        ;
+
+        
+    
+    
+                marker_7dfa71d65052db8712a7a71000f7d4a9.setIcon(icon_680728439ccbd317dcc83cb76c075542);
+            
+    
+            var marker_af5074aae4c29c6f45672e5708358c05 = L.marker(
+                [-30.021805555, -51.172361105],
+                {
+}
+            ).addTo(map_8b66f4acb564d36f6dc30af124bf4af5);
+        
+    
+            var icon_17fd83b6c4e187e6078dbe9505603692 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4f87ff3caeb3b9cc2abb50b22a5d594b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_623c6a6c59ec0ba200158e3d2156e1b4 = $(`<div id="html_623c6a6c59ec0ba200158e3d2156e1b4" style="width: 100.0%; height: 100.0%;">Average Location of Weather Stations for RS_1</div>`)[0];
+                popup_4f87ff3caeb3b9cc2abb50b22a5d594b.setContent(html_623c6a6c59ec0ba200158e3d2156e1b4);
+            
+        
+
+        marker_af5074aae4c29c6f45672e5708358c05.bindPopup(popup_4f87ff3caeb3b9cc2abb50b22a5d594b)
+        ;
+
+        
+    
+    
+                marker_af5074aae4c29c6f45672e5708358c05.setIcon(icon_17fd83b6c4e187e6078dbe9505603692);
+            
+</script>
+</html>
